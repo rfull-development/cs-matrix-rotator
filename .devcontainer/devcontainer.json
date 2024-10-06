@@ -2,7 +2,7 @@
 // This source code is managed under the MIT license. See LICENSE in the project root.
 {
   "name": ".NET Dev Container",
-  "image": "ryotafunaki/devcontainer-dotnet:sdk-8.0",
+  "dockerFile": "Dockerfile",
   "customizations": {
     "vscode": {
       "extensions": [
