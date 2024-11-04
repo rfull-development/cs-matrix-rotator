@@ -12,7 +12,16 @@ This repository is a Matrix Rotator.
 
 ### Execution on local machine
 
-1.  Start the application
+You can launch pre-built executable programs.
+
+1.  Run executable applications
     ```bash
-    dotnet run MatrixRotator.csproj
+    MatrixRotator <--input|-i> input path <--output|-o> output pat
+    ```
+
+If you have a build environment, you can run it directly.
+
+1.  Run the application directly
+    ```bash
+    dotnet run MatrixRotator.csproj <--input|-i> input path <--output|-o> output path
     ```
