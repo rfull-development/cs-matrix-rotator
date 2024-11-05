@@ -19,7 +19,7 @@ namespace MatrixRotator.Tests
         }
 
         [TestMethod]
-        public void LoadTest()
+        public void Load()
         {
             int rowCount = 4;
             int columnCount = 3;
@@ -49,7 +49,7 @@ namespace MatrixRotator.Tests
         }
 
         [TestMethod]
-        public void SaveTest()
+        public void Save()
         {
             int rowCount = 4;
             int columnCount = 3;
@@ -83,7 +83,7 @@ namespace MatrixRotator.Tests
         }
 
         [TestMethod]
-        public void RotateTest()
+        public void Rotate()
         {
             int rowCount = 4;
             int columnCount = 3;
