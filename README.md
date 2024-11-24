@@ -1,37 +1,27 @@
-﻿# .NET Project Repository
+﻿# Matrix Rotator Repository
 
-This repository is a .NET Project.
+This repository is a Matrix Rotator.
 
 ## Overview
 
 ## Requirements
 
-## Container image info
+- .NET 8.0
 
 ## How to use
 
 ### Execution on local machine
 
-1.  Start the application
+You can launch pre-built executable programs.
+
+1.  Run executable applications
     ```bash
-    dotnet run --project <project-name>
+    MatrixRotator <--input|-i> input path <--output|-o> output pat
     ```
 
-### Execution on Docker
+If you have a build environment, you can run it directly.
 
-1.  Start the application
+1.  Run the application directly
     ```bash
-    docker compose up -d
-    ```
-
-### Execution on Kubernetes
-
-1. Register the Helm repository
-    ```bash
-    helm repo add rfull-development http://charts.ngv.jp
-    helm repo update
-    ```
-1. Deploy the application
-    ```bash
-    helm install rfull-development/<release-name> --namespace <namespace> --create-namespace
+    dotnet run MatrixRotator.csproj <--input|-i> input path <--output|-o> output path
     ```

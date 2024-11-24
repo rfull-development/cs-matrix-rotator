@@ -5,7 +5,6 @@
   "dockerComposeFile": "./docker-compose.yml",
   "service": "develop",
   "workspaceFolder": "/workspace",
-  "postCreateCommand": "cd .devcontainer/shells/post_create/ && bash -C install.sh",
   "customizations": {
     "vscode": {
       "extensions": [

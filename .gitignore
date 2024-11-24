@@ -6,5 +6,4 @@ Properties/**/*
 .vs/
 .vscode/
 *.user
-*.http
 *.log
